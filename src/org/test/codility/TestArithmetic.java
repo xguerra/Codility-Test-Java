@@ -8,6 +8,7 @@ public class TestArithmetic {
 	public static void main(String[] args) {
 		// int A[] = {1, 2, 3, 4};
 		int A[] = { 2, 4, 6, 8, 10 };
+		//int A[] = {-1,1,3,3,3,2,1,0};
 		System.out.println("Result Aricmetic " + numberOfArithmeticSlices(A));
 	}
 
