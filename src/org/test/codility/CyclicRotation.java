@@ -1,11 +1,20 @@
 package org.test.codility;
 
+import java.util.Arrays;
+
 public class CyclicRotation {
 
 	public static void main(String[] args) {
 		System.out.println("Valor "+calculateValueIndex(2, 5, 3));
 		int[] array = {3, 8, 9, 7, 6};
 		System.out.println("Rotate "+ solution(array, 3));
+		int[] a = solution(array, 3);
+		
+		for (int j = 0; j < a.length; j++) {
+			System.out.println(a[j]);
+		}
+		
+		
 	}
 	
 	public static int[] solution(int[] A, int K) {
